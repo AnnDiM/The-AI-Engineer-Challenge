@@ -1,12 +1,11 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from openai import OpenAI
+import anthropic
 import os
 
 app = FastAPI()
 
-# CORS so the frontend can talk to backend
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -23,20 +22,19 @@ def root():
 
 @app.post("/api/chat")
 def chat(request: ChatRequest):
-    api_key = os.getenv("OPENAI_API_KEY")
+    api_key = os.getenv("ANTHROPIC_API_KEY")
     if not api_key:
-        raise HTTPException(status_code=500, detail="OPENAI_API_KEY not configured")
+        raise HTTPException(status_code=500, detail="ANTHROPIC_API_KEY not configured")
 
     try:
-        user_message = request.message
-        client = OpenAI(api_key=api_key)
-        response = client.chat.completions.create(
-            model="gpt-5",
-            messages=[
-                {"role": "system", "content": "You are a supportive mental coach."},
-                {"role": "user", "content": user_message}
-            ]
+        base_url = os.getenv("ANTHROPIC_BASE_URL")
+        client = anthropic.Anthropic(api_key=api_key, base_url=base_url) if base_url else anthropic.Anthropic(api_key=api_key)
+        response = client.messages.create(
+            model="claude-sonnet-4-6",
+            max_tokens=1024,
+            system="You are a supportive mental coach.",
+            messages=[{"role": "user", "content": request.message}]
         )
-        return {"reply": response.choices[0].message.content}
+        return {"reply": response.content[0].text}
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Error calling OpenAI API: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Error calling Anthropic API: {str(e)}")
