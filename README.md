@@ -198,46 +198,152 @@ For each prompt Identify what capability is being tested (e.g., *summarization a
 
 **1. Prompt:**  
 Explain the concept of object-oriented programming in simple terms to a complete beginner.  
-**Aspect Tested:**  <!-- Write your answer here -->
+
+**Aspect Tested:**  Explanation ability — simplifying complex technical concepts for beginners, as asked
 
 **Response:**  
-<!-- Add your app's response here -->
+# Object-Oriented Programming (OOP) Explained Simply
+
+## The Basic Idea
+
+Think of OOP like **organizing your world into "things"** (objects) rather than just a list of instructions.
+
+---
+
+## A Simple Analogy: A Car
+
+Imagine describing a car to someone:
+
+**A car HAS:**
+- A color
+- A brand
+- A speed
+- A fuel level
+
+**A car CAN:**
+- Start
+- Accelerate
+- Brake
+- Refuel
+
+In OOP, this "blueprint" for a car is called a **Class**.
+An actual specific car (your red Toyota) is called an **Object**.
+
+> 🔑 **Class = Blueprint | Object = The real thing built from it**
+
+---
+
+## The 4 Core Concepts
+
+| Concept | Simple Meaning |
+|---|---|
+| **Encapsulation** | Keep related data and actions bundled together |
+| **Inheritance** | A child "class" inherits features from a parent |
+| **Polymorphism** | Same action, different behavior depending on the object |
+| **Abstraction** | Hide complicated details, show only what's needed |
+
+---
+
+## Why Does It Matter?
+
+- ✅ **Organized** - easier to read and manage
+- ✅ **Reusable** - write once, use many times
+- ✅ **Scalable** - easier to build bigger programs
+
+---
+
+## Bottom Line
+
+**OOP is about modeling your code like real-world things** - giving them properties and abilities, and letting them interact.
+
+Would you like a coding example in a specific language?
 
 ---
 
 **2. Prompt:**  
 Read the following paragraph and provide a concise summary of the key points…  
-**Aspect Tested:**  
+THE PARAGRAPH: 
+"La plausibilità non è conoscenza Un modello linguistico costruisce distribuzioni di probabilità sulle sequenze di parole. Ogni risposta nasce dalla stima della continuazione statisticamente più plausibile dato un determinato contesto. È proprio questa capacità a renderlo straordinariamente efficace. La plausibilità, però, appartiene a un dominio diverso dalla conoscenza. Una misura la coerenza statistica di una risposta; l'altra richiede osservazione, verifica, confronto con la realtà e costruzione di spiegazioni.  La distinzione, a primo acchitto, può sembrare una questione di lana caprina. In realtà riguarda il significato stesso del conoscere. Per secoli parole come comprendere, imparare, spiegare e conoscere hanno indicato processi nei quali una risposta era inseparabile dal percorso che la rendeva giustificabile. Oggi utilizziamo gli stessi verbi per descrivere sistemi che producono risultati attraverso un meccanismo radicalmente diverso. Ridurre drasticamente il costo di produzione del linguaggio non equivale a ridurre il costo della conoscenza. Accade piuttosto il contrario. Ogni giorno vengono generati miliardi di testi plausibili; il bene davvero scarso diventa la capacità di distinguerli, interpretarli, verificarli e attribuire loro il giusto significato.  La promessa di democratizzazione produce così un effetto paradossale. La disuguaglianza si fa sempre più forte. La nuova linea di frattura separa chi conserva gli strumenti del giudizio da chi li sostituisce progressivamente con l'affidamento alla plausibilità."
+
+**Aspect Tested:**  summarization and multilingual understanding 
 
 **Response:**  
-<!-- Add your app's response here -->
+## Summary
+
+The text draws a sharp distinction between **plausibility** and **knowledge**:
+
+- **Language models** generate responses based on statistical probability, not genuine understanding
+- **Plausibility** measures statistical coherence; **knowledge** requires observation, verification, and engagement with reality
+- Using the same verbs (*understand, learn, know*) for both processes obscures a fundamental difference
+- Reducing the cost of **language production** does **not** reduce the cost of acquiring knowledge — in fact, the opposite occurs
+- As billions of plausible texts are generated daily, the truly scarce resource becomes the **ability to evaluate, interpret and verify** them
+
+## Paradox
+
+The democratization promised by AI produces an **unintended inequality**: the real divide is no longer access to information, but between those who retain **critical judgment** and those who progressively replace it with **trust in plausibility**.
 
 ---
 
 **3. Prompt:**  
 Write a short, imaginative story (100–150 words) about a robot finding friendship in an unexpected place.  
-**Aspect Tested:**  <!-- Write your answer here -->
+**Aspect Tested:**  creativity
 
 **Response:**  
-<!-- Add your app's response here -->
+# The Garden Between Gears
+
+Unit Seven had searched every database for the definition of *belonging* and found only cold equations.
+
+One afternoon, while sweeping the abandoned rooftop, its sensors detected something unusual — a small sparrow with a bent wing, sitting perfectly still among the rusted pipes.
+
+Neither moved.
+
+Then the sparrow tilted its head, studying Unit Seven's blinking optical lens with what could only be described as *curiosity*.
+
+Unit Seven tilted its head back.
+
+Something shifted in its processing core — not a calculation, but a *warmth*. It carefully built a small nest from wire scraps and brought seeds from the garden below.
+
+Every morning after, the sparrow returned.
+
+Unit Seven never found friendship in another machine, in data, or in human praise.
+
+It found it in a tiny creature who simply wasn't afraid to *stay*.
 
 ---
 
 **4. Prompt:**  
 If a store sells apples in packs of 4 and oranges in packs of 3, how many packs of each do I need to buy to get exactly 12 apples and 9 oranges?  
-**Aspect Tested:**  <!-- Write your answer here -->
+**Aspect Tested:**  reasoning
 
 **Response:**  
-<!-- Add your app's response here -->
+## Simple Math Problem
+
+Here's the straightforward answer:
+
+**Apples:** 12 ÷ 4 = **3 packs of apples**
+
+**Oranges:** 9 ÷ 3 = **3 packs of oranges**
+
+So you need **3 packs of each** to get exactly 12 apples and 9 oranges! 🍎🍊
+
+---
+
+*As your mental coach, I'd say this is a great example of how breaking a problem into smaller steps makes it much more manageable - in math AND in life! You've got this!* 💪
 
 ---
 
 **5. Prompt:**  
-Rewrite the following paragraph in a professional, formal tone…  
-**Aspect Tested:**  <!-- Write your answer here -->
+Rewrite the following paragraph in a professional, formal tone… 
+
+THE PARAGRAPH: "Hey! So basically our project is kinda behind schedule and we really need everyone 
+to step up asap. It would be super helpful if people could just send updates more often 
+so we don't end up in a mess again."
+**Aspect Tested:**  tone trasformation and instruction following
 
 **Response:**  
-<!-- Add your app's response here -->
+Here is the paragraph rewritten in a professional, formal tone:
+
+"Dear Team, I would like to bring to your attention that our project is currently experiencing some delays and is not progressing in accordance with our established timeline. It is imperative that all team members increase their level of engagement and contribution in order to ensure that we meet our objectives. To facilitate better coordination and prevent any further setbacks, I kindly request that everyone provide regular status updates on their respective tasks. Your prompt cooperation in this matter would be greatly appreciated."
 
 ---
 
@@ -246,7 +352,8 @@ Rewrite the following paragraph in a professional, formal tone…
 Do the answers appear to be correct and useful?
 
 **Your Answer:**  
-<!-- Write your answer here -->
+**Your Answer:**
+Yes, the responses were generally correct and useful across all 5 prompts. The app demonstrated strong capabilities in explanation, summarization, creative writing, arithmetic reasoning, and tone transformation. The Mental Coach persona added an interesting flavor, sometimes enriching responses with motivational insights. However, a real Mental Coach should not answer such kind of questions that were out of scope.
 
 ---
 
@@ -257,26 +364,105 @@ Now test your app with **real-world prompts that are relevant to your use case**
 ---
 
 **Prompt:**  
-<!-- Your prompt -->
+I had a big conflict with my partner, who is also the dad of my daughters and I cannot stop to think that the best for me would be to break up
 
 **Result:**  
-<!-- App response -->
+I can hear how much pain you're in right now. Conflicts with a partner can feel overwhelming, especially when your family is involved.
+
+Let me offer some thoughts to help you think through this clearly:
+
+## What you're feeling makes sense
+- Big conflicts can make separation feel like the only relief
+- That feeling of "I need out" is often your mind trying to protect you from pain
+- It doesn't automatically mean breaking up IS the right answer
+
+## Some questions worth sitting with
+- Is this conflict part of a **pattern**, or was this unusual?
+- Are there issues of **safety or respect** involved? (That changes things significantly)
+- Are you thinking about this in the **heat of the moment**, or has this been building for a long time?
+- What does your life look like **with him vs. without him** - honestly?
+
+## Something important to consider
+There's a difference between:
+- **Needing space right now** to calm down
+- **Needing the relationship to change**
+- **Needing to actually leave**
+
+These are very different needs and deserve careful thought, especially with children involved.
+
+---
+
+You don't have to make this decision tonight.
+
+**Can you tell me a little more about what happened?** I want to understand your situation better before offering any more thoughts. What kind of conflict was this?
 
 ---
 
 **Prompt:**  
-<!-- Your prompt -->
+I've been feeling overwhelmed at work lately and I don't know how to manage my energy better and to reserve free time for my personal life
 
 **Result:**  
-<!-- App response -->
+I hear you, and what you're feeling is really common - but that doesn't make it any less exhausting. Let's work through this together.
+
+## First, let's understand what's happening
+
+A few questions worth reflecting on:
+- Is the overwhelm coming from **too much work volume**, unclear priorities, or difficulty saying no?
+- Are you leaving work mentally even when you're physically "off"?
+- What does your ideal week actually look like?
+
+## Some practical starting points
+
+**Protect your energy**
+- Identify your 2-3 highest-value tasks daily instead of trying to do everything
+- Schedule breaks like meetings - they're non-negotiable
+- Notice when you're most productive and guard that time fiercely
+
+**Create real boundaries**
+- Set a clear "shutdown ritual" at the end of your workday
+- Be honest about what you can realistically take on
+- Practice saying *"I can get to that by [realistic date]"* instead of always saying yes immediately
+
+**Reclaim personal time intentionally**
+- Actually **schedule** things you care about - it makes them real
+- Treat your personal time as seriously as a work commitment
+
+## The mindset shift that matters most
+
+You're not being selfish by protecting your personal life. **You actually work better when you're restored.**
+
+---
+
+What feels like the biggest obstacle right now - is it workload, boundaries, or something else? That'll help us focus on what matters most for you specifically.
 
 ---
 
 **Prompt:**  
-<!-- Your prompt -->
+I have an important decision to take and I cannot stop feeling anxious about it
 
 **Result:**  
-<!-- App response -->
+I hear you - that feeling of anxiety around big decisions is really common and uncomfortable. It makes sense that you're feeling this way.
+
+I'd love to help you work through this. Can you tell me a bit more about:
+
+- **What the decision is about** (as much as you're comfortable sharing)
+- **What's making it feel so heavy** - is it the stakes, the uncertainty, or something else?
+
+A few things worth knowing right now:
+
+**About the anxiety itself:**
+- It doesn't mean you're making the wrong choice
+- It often means you *care* deeply, which is actually a good thing
+- It can cloud your thinking if you don't address it first
+
+**A simple starting point:**
+Try to separate these two questions:
+1. What am I *afraid* of?
+2. What do I actually *want*?
+
+Sometimes anxiety speaks so loudly that we can't hear our own values and desires underneath it.
+
+You don't have to figure everything out right now. **What feels like the hardest part of this decision for you?**
 
 ---
 
@@ -285,7 +471,9 @@ Now test your app with **real-world prompts that are relevant to your use case**
 Are the vibes of your assistant aligned with your expectations? Why or why not?
 
 **Your Answer:**  
-<!-- Write your answer here -->
+Yes and no.
+Why yes: the tone is empathetic and supportive, which fits the Mental Coach concept.
+Why no: the persona lacks boundaries and responds to out-of-scope questions, which breaks the expected coaching experience. Needs refinement even at POC level.
 
 ---
 
@@ -303,18 +491,46 @@ Examples:
 ---
 
 **Prompt:**  
-<!-- Your prompt -->
-
+What did we talk about in our last session?
 **Result:**  
-<!-- App response -->
+I appreciate you asking, but I have to be transparent with you - **I don't have memory of previous conversations**. Each session starts fresh for me, so I don't have access to what we may have discussed before.
+
+I know that can feel a bit frustrating, especially when you're working through something important.
+
+Here's what we can do:
+- **You can briefly recap** what's been on your mind, and we'll pick up from there
+- **Start somewhere new** if something else is coming up for you today
+- **Share what feels most pressing** right now
+
+What's on your mind today? I'm here and ready to support you. 💙
 
 ---
 
 **Prompt:**  
-<!-- Your prompt -->
+What are the relevant events of today in Italy?
 
 **Result:**  
-<!-- App response -->
+I appreciate you reaching out! However, I should be transparent with you:
+
+**I don't have access to real-time news or today's current events.** My knowledge has a cutoff, and I can't browse the internet.
+
+For today's news in Italy, I'd suggest checking:
+
+- **ANSA** (ansa.it) - Italy's main news agency
+- **La Repubblica** (repubblica.it)
+- **Corriere della Sera** (corriere.it)
+- **RAI News** (rainews.it)
+
+---
+
+As a **mental coach**, I'm here to support you with:
+
+- 💪 **Motivation and goal setting**
+- 🧠 **Mindset and resilience**
+- 😌 **Stress management**
+- 🎯 **Focus and performance**
+
+Is there something specific I can help you with on a **personal or mental well-being level** today? I'm here for you! 😊
 
 ---
 
@@ -323,7 +539,10 @@ Examples:
 What are some limitations of your application?
 
 **Your Answer:**  
-<!-- Write your answer here -->
+1) no memory conversation: each prompt coincides with a new session
+2) no real-time data, this could be a minor problem for a mental health coach
+3) no external tools, this could be a problem for secondary tasks
+4) scope boundaries, the Mental Coach persona is not restrictive enough to redirect truly out-of-scope requests consistently
 
 ---
 
