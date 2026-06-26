@@ -66,26 +66,26 @@ export default function ChatPage() {
   return (
     <div className="chat-container">
       <header className="chat-header">
-        <div className="avatar">🧠</div>
+        <div className="avatar">🧘</div>
         <div>
-          <h1>Mental Coach</h1>
-          <p>Your supportive AI companion</p>
+          <h1>Eirene</h1>
+          <p>Your guide to inner calm and emotional clarity</p>
         </div>
       </header>
 
       <div className="messages">
         {messages.length === 0 && !loading && (
           <div className="empty-state">
-            <div className="big-avatar">🧠</div>
+            <div className="big-avatar">🧘</div>
             <h2>How are you feeling today?</h2>
-            <p>Share what&apos;s on your mind. I&apos;m here to listen and support you.</p>
+            <p>Share what&apos;s on your mind. Eirene is here to listen and help you find clarity within.</p>
           </div>
         )}
 
         {messages.map((m, i) => (
           <div key={i} className={`message ${m.role}`}>
             <div className="message-avatar">
-              {m.role === "ai" ? "🧠" : "🙂"}
+              {m.role === "ai" ? "🧘" : "🙂"}
             </div>
             <div className="bubble">{m.text}</div>
           </div>
@@ -93,7 +93,7 @@ export default function ChatPage() {
 
         {loading && (
           <div className="message ai">
-            <div className="message-avatar">🧠</div>
+            <div className="message-avatar">🧘</div>
             <div className="bubble">
               <div className="typing-indicator">
                 <span /><span /><span />
