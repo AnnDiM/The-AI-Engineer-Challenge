@@ -558,10 +558,17 @@ Then rerun your vibe check and document:
 ---
 
 **Adjustments Made:**  
-<!-- Describe what you changed -->
+- Tightened the system prompt to redirect out-of-scope requests back to mental wellness topics
+MINOR:
+- Rebranded the app from "Mental Coach" to "Eirene" (in name of the Greek goddess of peace :))
+- Changed avatar to meditation emoji 🧘
+- Updated description to "Your guide to inner calm and emotional clarity"
 
 **Results:**  
-<!-- What improved? What didn’t? -->
+1) no memory conversation: each prompt coincides with a new session --> still present
+2) no real-time data, this could be a minor problem for a mental health coach --> still present
+3) no external tools, this could be a problem for secondary tasks --> still present
+4) scope boundaries, the Mental Coach persona is not restrictive enough to redirect truly out-of-scope requests consistently --> fixed
 
 ---
 
